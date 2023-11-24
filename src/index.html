@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soheila.HPB Website</title>
+    <link rel="stylesheet" href="font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/output.css">
+</head>
+
+<body class="font-web">
+    <main class="w-full 2xl:container mx-auto ">
+        <!-- header top navbar********************************** -->
+        <div class="bg-black">
+		
+            <header class="flex items-center justify-between w-full  p-8 md:p-6">
+                <!-- *********lkjh*********my logo******************** -->
+                <figure class="w-[70%] md:w-[40%] z-20">
+                    <img class="w-1/2" src="images/logo.png" alt="">
+                </figure>
+                <nav class="w-2/4  hidden lg:flex items-center">
+                    <ul class="flex w-full justify-evenly ">
+                        <li
+                            class="relative before:absolute before:bottom-0 before:content-[''] before:w-0 hover:before:w-full duration-500 before:h-[1px] before:bg-white text-xl text-white capitalize mx-3">
+                            <a href="#home">home</a>
+                        </li>
+                        <li
+                            class="relative before:absolute before:bottom-0 before:content-[''] before:w-0 hover:before:w-full duration-500 before:h-[1px] before:bg-white text-xl text-white capitalize mx-3">
+                            <a href="#about">about me</a>
+                        </li>
+                        <li
+                            class="relative before:absolute before:bottom-0 before:content-[''] before:w-0 hover:before:w-full duration-500 before:h-[1px] before:bg-white text-xl text-white capitalize mx-3">
+                            <a href="#resume">resume</a>
+                        </li>
+                        <li
+                            class="relative before:absolute before:bottom-0 before:content-[''] before:w-0 hover:before:w-full duration-500 before:h-[1px] before:bg-white text-xl text-white capitalize mx-3">
+                            <a href="#projects">projects</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- ***********contact button******* -->
+                <div class="w-1/4 hidden lg:flex  justify-center items-center p-1">
+                    <a href="#contact"
+                        class="w-2/3 h-[40px] bg-[#191919] hover:bg-[#494848] duration-500 flex justify-center items-center capitalize rounded-3xl text-white text-lg">contact
+                        me</a>
+                </div>
+                <!-- ***************list button****** -->
+                <div class="flex z-20 lg:hidden w-[50px] h-[50px] justify-center items-center group" id="hamburger-icon">
+                    <i class="bi bi-list text-white text-4xl group-hover:scale-110 duration-300" id="icon"></i>
+                  </div>
+                </header>
+                <ul class="list-none lg:hidden transition-all fixed bg-black text-white text-2xl transition -top-full left-0 flex gap-6 flex-col justify-center items-center w-full h-screen z-10" id="drawer-menu">
+                  <li class="relative py-4 w-full text-center">
+                    <a class="w-full text-center capitalize" href="#home">home</a>
+                  </li>
+                  <li class="relative py-4 w-full text-center">
+                    <a class="w-full text-center capitalize" href="#about">about me</a>
+                  </li>
+                  <li class="relative py-4 w-full text-center">
+                    <a class="w-full text-center capitalize" href="#resume">resume</a>
+                  </li>
+                  <li class="relative py-4 w-full text-center">
+                    <a class="w-full text-center capitalize" href="#projects">projects</a>
+                  </li>
+                </ul>
+            <!-- ***************home*********** -->
+            <div id="home" class="flex md:flex-row flex-col p-4 xl:p-10 items-center justify-center">
+                <div class="w-full lg:w-3/5 py-10 flex flex-col justify-center items-center">
+                    <p class="capitalize text-5xl my-10 font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#ced0e2] to-[#3745A7]"> I'm soheila hasanpoor</p>
+                    <p class="capitalize text-6xl my-10 text-white font-semibold">frontend developer</p>
+                    <div class="flex items-start w-full px-14 py-6 justify-center">
+                        <a href="#contact"
+                            class=" p-4 rounded-[40px] text-2xl text-white capitalize font-semibold bg-gradient-to-r from-[#ced0e2]  from-5% via-[#6e79cc] via-55% to-[#3745A7] to-90%">book
+                            a free call <i class="bi bi-arrow-right-circle-fill text-white"></i></a>
+                    </div>
+                </div>
+                <figure class="w-full lg:w-2/5 py-10 flex items-center justify-center bg-hero-bg bg-cover bg-center bg-no-repeat">
+                    <img class="w-[80%] h-[60%] animate-shadow object-center" src="images/IMG_3211.jpg" alt="">
+                </figure>
+
+            </div>
+        </div>
+        <!-- *********************about me************** -->
+        <div id="about"
+            class="bg-[#F2F2F2] flex pt-10 pb-2 px-8 md:px-10 xl:px-16 flex-col lg:flex-row items-center justify-center">
+            <p class="w-full lg:w-1/3 uppercase font-bold text-black text-7xl mb-5">soheila hpb</p>
+            <div class="w-full flex p-5 lg:p-10">
+                <p class="w-1/2 p-3 lg:p-12 text-xl ">Hello! I am Soheila Hasanpoor , a frontend web developer.
+                    I was born on February 24, 1999 and I live in tabriz in Iran.
+                    I hold a Bachelor of Science degree in Computer Engineering and a Diploma in Frontend Web
+                    Development.
+                    I am passionate about ‌coding and am always learning new things.
+                </p>
+                <p class="w-1/2 p-3 lg:p-12 text-xl ">I am aiming for a successful career and a high social position in
+                    life. <br>In case of need, you can contact me via email or phone, or you can fill out the form so
+                    that I can contact you.</p>
+            </div>
+        </div>
+        <div class="bg-[#F2F2F2] w-full flex justify-center items-center pt-0 pb-20">
+            <a href="#contact"
+                class="w-1/3 h-[45px] bg-[#191919] hover:bg-[#494848] duration-500 flex justify-center items-center capitalize rounded-3xl text-white text-lg">contact
+                me</a>
+        </div>
+        <div class="bg-[#F2F2F2] px-32 pb-32 flex justify-center items-center flex-col md:flex-row">
+            <div class="flex flex-col lg:flex-row">
+                <figure
+                    class="flex w-[321px] h-[441px] overflow-hidden rotate-[-20deg] hover:rotate-0 hover:scale-105 duration-500 mx-[-20px]">
+                    <img class="w-full h-full object-cover" src="images/New Pro.webp" alt="">
+                </figure>
+                <figure class="rotate-[20deg] hover:rotate-0 hover:scale-105 duration-500 mx-[-20px]">
+                    <img src="images/61f2b88db5af7addda9a23e9_About Me Image 1.png" alt="">
+                </figure>
+            </div>
+            <div class="flex flex-col lg:flex-row">
+                <figure class="rotate-[-20deg] md:rotate-[0] z-10 hover:rotate-0 hover:scale-105 duration-500 mx-[-20px]">
+                    <img src="images/61f2b77c81fa4d83b6c46e6b_About Me Image 3.png" alt="">
+                </figure>
+                <figure
+                    class="rotate-[20deg] w-[321px] h-[441px] overflow-hidden md:rotate-[-20deg] hover:rotate-0 hover:scale-105 duration-500 mx-[-20px]">
+                    <img src="images/IMG_3211.jpg" alt="">
+                </figure>
+            </div>
+        </div>
+        <!-- *********************resume*********** -->
+        <div id="resume" class="bg-[#000000] flex flex-col justify-center items-center py-10 p-6 md:p-12 xl:p-20">
+            <div class="flex items-center justify-center p-10 w-full lg:w-1/2">
+                <p class="text-white font-bold text-[7vw] lg:text-[3.5vw]">Look at my <span
+                        class="bg-clip-text text-transparent bg-gradient-to-l from-[#ced0e2] to-[#3745A7]">resume</span>
+                </p>
+            </div>
+            <div class="flex flex-col lg:flex-row items-center justify-center  w-full">
+                <div
+                    class="hover:translate-y-[-18px] duration-300 w-full lg:w-1/2  bg-[#1F1F1F] p-12 m-8 flex justify-start flex-col min-h-[300px] relative before:absolute before:h-[8px] before:w-full before:bg-gradient-to-r from-[#ced0e2]  from-5% via-[#6e79cc] via-55% to-[#3745A7] to-90% before:top-0 before:left-0">
+                    <div class="flex items-center">
+                        <i class="bi bi-mortarboard text-white text-5xl me-3"></i>
+                        <h2 class="capitalize text-white text-4xl font-semibold mb-4">education</h2>
+                    </div>
+                    <ul class="px-10">
+                        <li class="text-xl bg-clip-text text-transparent bg-gradient-to-l from-[#ced0e2] to-[#3745A7]">
+                            Bachelor of Computer Engineering </li>
+                        <li class="text-white">-2016-2020</li>
+                        <li class="text-white capitalize">-Azarbaijan Shahid Madani University</li>
+                    </ul>
+                    <ul class="px-10">
+                        <li
+                            class="text-xl bg-clip-text text-transparent bg-gradient-to-l from-[#ced0e2] to-[#3745A7] capitalize">
+                            frontend web developing diploma</li>
+                        <li class="text-white">-2023</li>
+                        <li class="text-white capitalize">-parnian web design school</li>
+                    </ul>
+                </div>
+                <div
+                    class="hover:translate-y-[-18px] duration-300 w-full lg:w-1/2  bg-[#1F1F1F]  p-12 m-8 flex justify-start flex-col min-h-[300px]  relative before:absolute before:h-[8px] before:w-full before:bg-gradient-to-r from-[#ced0e2]  from-5% via-[#6e79cc] via-55% to-[#3745A7] to-90% before:top-0 before:left-0">
+                    <div class="flex items-center">
+                        <i class="bi bi-briefcase text-white text-5xl me-3"></i>
+                        <h2 class="capitalize text-white text-4xl font-semibold mb-4">experience</h2>
+                    </div>
+                    <ul class="px-10">
+                        <li
+                            class="text-xl bg-clip-text text-transparent bg-gradient-to-l from-[#ced0e2] to-[#3745A7] capitalize">
+                            frontend developer</li>
+                        <li class="text-white">-present</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="w-full h-[1px] bg-[#242424]"></div>
+        <!-- ******************skills******************** -->
+        <div class="bg-[#000000] py-10 pb-20 font-sans">
+            <ul class="flex justify-evenly h-full w-full ">
+                <li class="uppercase text-[#868686]">html5</li>
+                <li class="uppercase text-[#868686]">css3</li>
+                <li class="uppercase text-[#868686]">bootstrap</li>
+                <li class="uppercase text-[#868686]">tailwind</li>
+                <li class="uppercase text-[#868686]">javascript</li>
+            </ul>
+        </div>
+        <!-- ************projects************** -->
+        <div id="projects" class="bg-[#F2F2F2] p-10 xl:p-20 ">
+            <div class=" mb-5">
+                <p class="text-black font-bold text-7xl capitalize">selected<span
+                        class="bg-clip-text text-transparent bg-gradient-to-r from-[#adb1e2] from-30% to-[#3745A7] font-bold text-7xl capitalize">
+                        projects</span></p>
+            </div>
+            <div class=" flex flex-col">
+                <div class="w-full flex flex-col lg:flex-row justify-center items-center">
+                    <!-- *****************first project**************** -->
+                    <div
+                        class="bg-white w-full lg:w-1/2 m-5 mt-32 p-8 h-[400px] lg:h-[500px] hover:translate-y-[-20px] duration-300">
+                        <figure class="w-full h-2/3 ">
+                            <img class="w-full h-full object-cover object-top" src="images/New Project.webp" alt="">
+                            <figcaption class=" my-5 p-2">
+                                <p class="capitalize text-2xl font-bold">avada life coach</p>
+                            </figcaption>
+                        </figure>
+                        <div class="my-20 p-2">
+                            <a class="text-2xl uppercase" href=" https://soheilahpb.github.io/life-coach-template/"
+                                target="_blank">view project <i
+                                    class="bi bi-arrow-right-circle-fill bg-clip-text text-transparent bg-gradient-to-r from-[#ced0e2] to-[#3745A7]"></i></a>
+                        </div>
+                    </div>
+                    <!-- *****************second project**************** -->
+                    <div
+                        class="bg-white w-full lg:w-1/2 mb-5 mt-8 mx-5 p-8 h-[400px] lg:h-[500px] hover:translate-y-[-20px] duration-300">
+                        <figure class="w-full h-2/3 ">
+                            <img class="w-full h-full object-cover object-top" src="images/New Project (1).webp" alt="">
+                            <figcaption class=" my-5 p-2">
+                                <p class="capitalize text-2xl font-bold">winery by avada</p>
+                            </figcaption>
+                        </figure>
+                        <div class="my-20 p-2">
+                            <a class="text-2xl uppercase" href=" https://soheilahpb.github.io/Winery-template/"
+                                target="_blank">view project <i
+                                    class="bi bi-arrow-right-circle-fill bg-clip-text text-transparent bg-gradient-to-r from-[#ced0e2] to-[#3745A7]"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full flex flex-col lg:flex-row justify-center items-center">
+                    <!-- *****************third project**************** -->
+                    <div
+                        class="bg-white w-full lg:w-1/2 m-5 mt-32 p-8 h-[400px] lg:h-[500px] hover:translate-y-[-20px] duration-300">
+                        <figure class="w-full h-2/3 ">
+                            <img class="w-full h-full object-contain object-top" src="images/New Project (2).webp"
+                                alt="">
+                            <figcaption class=" my-5 p-2">
+                                <p class="capitalize text-2xl font-bold">yoga</p>
+                            </figcaption>
+                        </figure>
+                        <div class="my-20 p-2">
+                            <a class="text-2xl uppercase" href=" https://soheilahpb.github.io/web_template/"
+                                target="_blank">view project <i
+                                    class="bi bi-arrow-right-circle-fill bg-clip-text text-transparent bg-gradient-to-r from-[#ced0e2] to-[#3745A7]"></i></a>
+                        </div>
+                    </div>
+                    <!-- *****************forth project**************** -->
+                    <div
+                        class="bg-white w-full lg:w-1/2 m-5  p-8 h-[400px] lg:h-[500px] hover:translate-y-[-20px] duration-300">
+                        <figure class="w-full h-2/3 ">
+                            <img class="w-full h-full object-contain object-top" src="images/New Project (4).webp"
+                                alt="">
+                            <figcaption class=" my-5 p-2">
+                                <p class="capitalize text-2xl font-bold">avada corporation</p>
+                            </figcaption>
+                        </figure>
+                        <div class="my-20 p-2">
+                            <a class="text-2xl uppercase" href=" https://soheilahpb.github.io/corporation-template/"
+                                target="_blank">view project <i
+                                    class="bi bi-arrow-right-circle-fill bg-clip-text text-transparent bg-gradient-to-r from-[#ced0e2] to-[#3745A7]"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full flex flex-col lg:flex-row justify-center items-center">
+                    <!-- *****************fifth project**************** -->
+                    <div
+                        class="bg-white w-full lg:w-1/2 m-5 mt-32 p-8 h-[400px] lg:h-[500px] hover:translate-y-[-20px] duration-300">
+                        <figure class="w-full h-2/3 ">
+                            <img class="w-full h-full object-contain object-top" src="images/New Project (3).webp"
+                                alt="">
+                            <figcaption class=" my-5 p-2">
+                                <p class="capitalize text-2xl font-bold">avada programmer </p>
+                            </figcaption>
+                        </figure>
+                        <div class="my-20 p-2">
+                            <a class="text-2xl uppercase" href=" https://soheilahpb.github.io/Programming-Template/"
+                                target="_blank">view project <i
+                                    class="bi bi-arrow-right-circle-fill bg-clip-text text-transparent bg-gradient-to-r from-[#ced0e2] to-[#3745A7]"></i></a>
+                        </div>
+                    </div>
+                    <!-- *****************sixth project**************** -->
+                    <div
+                        class="bg-white w-full lg:w-1/2 m-5 p-8 h-[400px] lg:h-[500px] hover:translate-y-[-20px] duration-300">
+                        <figure class="w-full h-2/3 ">
+                            <img class="w-full h-full object-contain object-top" src="images/New Project (5).webp"
+                                alt="">
+                            <figcaption class=" my-5 p-2">
+                                <p class="capitalize text-2xl font-bold">makeup palettes</p>
+                            </figcaption>
+                        </figure>
+                        <div class="my-20 p-2">
+                            <a class="text-2xl uppercase" href=" https://soheilahpb.github.io/makeup-palettes/"
+                                target="_blank">view project <i
+                                    class="bi bi-arrow-right-circle-fill bg-clip-text text-transparent bg-gradient-to-r from-[#ced0e2] to-[#3745A7]"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- ******************** see all projects button********** -->
+                <div class=" w-full lg:w-1/2 mt-2 p-10 lg:ms-[50%] lg:mt-[-80px] flex justify-center items-center">
+                    <a href="https://github.com/soheilahpb" target="_blank"
+                        class="hover:translate-y-[20px] duration-300 p-4 rounded-[40px] text-2xl text-white capitalize font-semibold bg-gradient-to-r from-[#ced0e2]  from-5% via-[#6e79cc] via-55% to-[#3745A7] to-90%">view
+                        all projects <i class="bi bi-arrow-right-circle-fill text-white"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- *********************** have ptojects in mind?********************* -->
+        <div class="bg-black p-10 lg:px-16  flex justify-center items-start md:items-center flex-col min-h-[100vh]">
+            <p class="font-bold text-6xl text-white">Have projects in mind?</p>
+            <p class="font-bold text-6xl text-white mt-8">Let’s work <span
+                    class="bg-clip-text text-transparent bg-gradient-to-r from-[#ced0e2] to-[#3745A7]">together</span>
+            </p>
+            <p class="text-xl font-light text-white mt-8">I'm Soheila HPB - a frontend web developer!</p>
+            <div class="mt-20">
+                <a href="#contact"
+                    class="py-4 px-8 rounded-[40px] text-2xl text-white capitalize font-semibold bg-gradient-to-r from-[#ced0e2]  from-5% via-[#6e79cc] via-55% to-[#3745A7] to-90%">book
+                    a free call <i class="bi bi-arrow-right-circle-fill text-white"></i></a>
+            </div>
+        </div>
+        <div class="w-full h-[1px] bg-[#242424]"></div>
+        <!-- ***********************contact me***************** -->
+        <div id="contact"
+            class="min-h-[100vh] bg-black items-center justify-center flex flex-col lg:flex-row xl:p-20 lg:p-10 p-10">
+            <div class="w-full lg:w-1/2  py-10">
+                <p class="font-bold text-6xl text-white">Have projects in mind? Let’s work <span
+                     class="bg-clip-text text-transparent bg-gradient-to-r from-[#ced0e2] to-[#3745A7]">together</span>
+                </p>
+                <p class="mt-6 w-10/12 font-light text-lg text-white">Have a project in mind? Looking to partner or work
+                    together? Reach out through the form and I'll get back to you in the next 48 hours.</p>
+            </div>
+            <!-- ****************************form***************** -->
+            <div class="w-full lg:w-[45%] bg-[#1F1F1F] p-10">
+                <p class="text-white text-xl font-medium uppercase mb-5">fill the form below</p>
+                <form class="grid grid-cols-[3fr] grid-rows-[repeat (2,1fr) 3fr] gap-[20px]" action="send_email.php"
+                    method="post"></form>
+                <div class="flex">
+                    <i class="w-fit text-[#999] col-span-1 row-span-1 bg-[#171717] text-2xl p-3 mb-4 bi bi-person-fill"></i>
+                <label for="name"></label>
+                <input class=" focus:outline-none text-[#999] col-span-1 row-span-1 bg-[#171717] w-full p-3 mb-4" type="text" name="name"
+                    id="name" placeholder="FirstName" maxlength="20">
+                </div>
+                <br>
+                <div class="flex">
+                    <i class="w-fit text-[#999] col-span-1 row-span-1 bg-[#171717] text-2xl p-3 mb-4 bi bi-envelope-fill"></i>
+                <label for="email"></label>
+                <input class=" focus:outline-none text-[#999] col-span-1 row-span-1 bg-[#171717] w-full p-3 mb-4" type="email" id="email"
+                    name="mail" placeholder="enter your email" autocomplete="on">
+                </div>
+                <br>
+                <div class="flex">
+                    <i class="w-fit text-[#999] col-span-1 row-span-1 bg-[#171717] text-2xl p-3 mb-4  bi bi-chat-square-text-fill"></i>
+                <label for="message"></label>
+                <textarea class=" focus:outline-none text-[#999] col-span-1 row-span-1 bg-[#171717] w-full p-3 mb-4" name="message"
+                    id="message" cols="30" rows="5" placeholder="type your message"></textarea>
+                </div>
+                <div class="w-full flex items-center justify-center py-4 px-8 rounded-[40px] text-2xl text-white capitalize font-semibold bg-gradient-to-r from-[#ced0e2]  from-5% via-[#6e79cc] via-55% to-[#3745A7] to-90% cursor-pointer">
+                        <input type="submit" value="submit now" class="text-2xl capitalize me-2">
+                        <i class="bi bi-arrow-right-circle-fill text-white text-2xl ms-2"></i>
+                    </div>
+            </div>
+        </div>
+        </div>
+        <!-- ***********************footer****************** -->
+        <div class="w-full h-[1px] bg-[#242424]"></div>
+        <footer class="bg-black min-h-[100vh] flex flex-col lg:flex-row p-10 lg:p-20">
+            <div class=" p-5 w-full lg:w-1/2 flex flex-col items-start justify-center font-sans">
+                <div class="flex justify-start items-center mb-5 group">
+                    <span><i
+                            class="group-hover:scale-110 duration-300 bi bi-envelope me-6 text-white text-3xl flex justify-center items-center rounded-[50%] w-[45px] h-[45px] bg-gradient-to-r from-[#ced0e2] from-5% via-[#6e79cc] via-55% to-[#3745A7] to-90%"></i></span>
+                    <p class="text-white lg:text-[2vw] text-[3vw] font-semibold"><a href="">
+                            soheilahasanpoory1999@gmail.com</a></p>
+                </div>
+                <div class="flex justify-start items-center mt-5 group">
+                    <span><i
+                            class="group-hover:scale-110 duration-300 bi bi-telephone me-6 text-white text-3xl flex justify-center items-center rounded-[50%] w-[45px] h-[45px] bg-gradient-to-r from-[#ced0e2] from-5% via-[#6e79cc] via-55% to-[#3745A7] to-90%"></i></span>
+                    <p class="text-white lg:text-[2vw] text-[3vw] font-semibold"><a href="">+98-930-140-4988</a></p>
+                </div>
+            </div>
+            <div class="flex  p-5 w-full lg:w-1/2 mt-7">
+                <ul class=" w-1/2 p-5 flex flex-col justify-center items-start">
+                    <li class="font-semibold text-2xl uppercase text-white mb-7">pages</li>
+                    <li class="capitalize text-white text-lg font-normal my-1"><a href="#home">home</a></li>
+                    <li class="capitalize text-white text-lg font-normal my-1"><a href="#about">about me</a></li>
+                    <li class="capitalize text-white text-lg font-normal my-1"><a href="#resume">resume</a></li>
+                    <li class="capitalize text-white text-lg font-normal my-1"><a href="#projects">projects</a></li>
+                    <li class="capitalize text-white text-lg font-normal my-1"><a href="#contact">contact</a></li>
+                </ul>
+                <ul class=" w-1/2 p-5 flex flex-col justify-center items-start">
+                    <li class="font-semibold text-2xl uppercase text-white mb-7">social media</li>
+                    <li class="capitalize text-white text-lg font-normal my-1"><a
+                            href="https://www.linkedin.com/in/soheila-hasanpoor" target="_blank">linkedIn</a></li>
+                    <li class="capitalize text-white text-lg font-normal my-1"><a href="https://github.com/soheilahpb"
+                            target="_blank">github</a></li>
+                    <li class="capitalize text-white text-lg font-normal my-1"><a
+                            href="https://www.instagram.com/soheila_hasanpoor_web/" target="_blank">instagram</a></li>
+                    <li class="capitalize text-transparent text-lg font-normal">w</li>
+                    <li class="capitalize text-transparent text-lg font-normal">w</li>
+                </ul>
+            </div>
+        </footer>
+    </main>
+</body>
+<script>
+    const drawerMenu = document.getElementById("drawer-menu");
+    const hamburgerIcon = document.getElementById("hamburger-icon");
+    const icon = document.getElementById("icon");
+    hamburgerIcon.addEventListener("click", () => {
+        if(drawerMenu.classList.contains('-top-full')){
+            drawerMenu.classList.remove('-top-full');
+            drawerMenu.classList.add('top-0');
+            icon.classList.remove('bi-list');
+            icon.classList.add('bi-x');
+        }else{
+            drawerMenu.classList.add('-top-full');
+            drawerMenu.classList.remove('top-0');
+            icon.classList.remove('bi-x');
+            icon.classList.add('bi-list');
+        }
+    })
+    drawerMenu.addEventListener("click", () => {
+        drawerMenu.classList.add('-top-full');
+        drawerMenu.classList.remove('top-0');
+        icon.classList.remove('bi-x');
+        icon.classList.add('bi-list');
+    })
+  </script>
+</html>

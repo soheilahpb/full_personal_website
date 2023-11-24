@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: web;
+    src: url(../font/fonts/PlayfairDisplay-Regular.ttf) format("opentype");
+}
