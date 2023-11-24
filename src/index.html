@@ -13,9 +13,9 @@
     <main class="w-full 2xl:container mx-auto ">
         <!-- header top navbar*********************** -->
         <div class="bg-black">
-		
+
             <header class="flex items-center justify-between w-full  p-8 md:p-6">
-                <!-- **************my logo******************** -->
+                <!-- ***********my logo******************** -->
                 <figure class="w-[70%] md:w-[40%] z-20">
                     <img class="w-1/2" src="images/logo.png" alt="">
                 </figure>
@@ -46,28 +46,32 @@
                         me</a>
                 </div>
                 <!-- ***************list button****** -->
-                <div class="flex z-20 lg:hidden w-[50px] h-[50px] justify-center items-center group" id="hamburger-icon">
+                <div class="flex z-20 lg:hidden w-[50px] h-[50px] justify-center items-center group"
+                    id="hamburger-icon">
                     <i class="bi bi-list text-white text-4xl group-hover:scale-110 duration-300" id="icon"></i>
-                  </div>
-                </header>
-                <ul class="list-none lg:hidden transition-all fixed bg-black text-white text-2xl transition -top-full left-0 flex gap-6 flex-col justify-center items-center w-full h-screen z-10" id="drawer-menu">
-                  <li class="relative py-4 w-full text-center">
+                </div>
+            </header>
+            <ul class="list-none lg:hidden transition-all fixed bg-black text-white text-2xl transition -top-full left-0 flex gap-6 flex-col justify-center items-center w-full h-screen z-10"
+                id="drawer-menu">
+                <li class="relative py-4 w-full text-center">
                     <a class="w-full text-center capitalize" href="#home">home</a>
-                  </li>
-                  <li class="relative py-4 w-full text-center">
+                </li>
+                <li class="relative py-4 w-full text-center">
                     <a class="w-full text-center capitalize" href="#about">about me</a>
-                  </li>
-                  <li class="relative py-4 w-full text-center">
+                </li>
+                <li class="relative py-4 w-full text-center">
                     <a class="w-full text-center capitalize" href="#resume">resume</a>
-                  </li>
-                  <li class="relative py-4 w-full text-center">
+                </li>
+                <li class="relative py-4 w-full text-center">
                     <a class="w-full text-center capitalize" href="#projects">projects</a>
-                  </li>
-                </ul>
+                </li>
+            </ul>
             <!-- ***************home*********** -->
             <div id="home" class="flex md:flex-row flex-col p-4 xl:p-10 items-center justify-center">
                 <div class="w-full lg:w-3/5 py-10 flex flex-col justify-center items-center">
-                    <p class="capitalize text-5xl my-10 font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#ced0e2] to-[#3745A7]"> I'm soheila hasanpoor</p>
+                    <p
+                        class="capitalize text-5xl my-10 font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#ced0e2] to-[#3745A7]">
+                        I'm soheila hasanpoor</p>
                     <p class="capitalize text-6xl my-10 text-white font-semibold">frontend developer</p>
                     <div class="flex items-start w-full px-14 py-6 justify-center">
                         <a href="#contact"
@@ -75,7 +79,8 @@
                             a free call <i class="bi bi-arrow-right-circle-fill text-white"></i></a>
                     </div>
                 </div>
-                <figure class="w-full lg:w-2/5 py-10 flex items-center justify-center bg-hero-bg bg-cover bg-center bg-no-repeat">
+                <figure
+                    class="w-full lg:w-2/5 py-10 flex items-center justify-center bg-hero-bg bg-cover bg-center bg-no-repeat">
                     <img class="w-[80%] h-[60%] animate-shadow object-center" src="images/IMG_3211.jpg" alt="">
                 </figure>
 
@@ -113,7 +118,8 @@
                 </figure>
             </div>
             <div class="flex flex-col lg:flex-row">
-                <figure class="rotate-[-20deg] md:rotate-[0] z-10 hover:rotate-0 hover:scale-105 duration-500 mx-[-20px]">
+                <figure
+                    class="rotate-[-20deg] md:rotate-[0] z-10 hover:rotate-0 hover:scale-105 duration-500 mx-[-20px]">
                     <img src="images/61f2b77c81fa4d83b6c46e6b_About Me Image 3.png" alt="">
                 </figure>
                 <figure
@@ -311,7 +317,7 @@
             class="min-h-[100vh] bg-black items-center justify-center flex flex-col lg:flex-row xl:p-20 lg:p-10 p-10">
             <div class="w-full lg:w-1/2  py-10">
                 <p class="font-bold text-6xl text-white">Have projects in mind? Let’s work <span
-                     class="bg-clip-text text-transparent bg-gradient-to-r from-[#ced0e2] to-[#3745A7]">together</span>
+                        class="bg-clip-text text-transparent bg-gradient-to-r from-[#ced0e2] to-[#3745A7]">together</span>
                 </p>
                 <p class="mt-6 w-10/12 font-light text-lg text-white">Have a project in mind? Looking to partner or work
                     together? Reach out through the form and I'll get back to you in the next 48 hours.</p>
@@ -322,29 +328,33 @@
                 <form class="grid grid-cols-[3fr] grid-rows-[repeat (2,1fr) 3fr] gap-[20px]" action="send_email.php"
                     method="post"></form>
                 <div class="flex">
-                    <i class="w-fit text-[#999] col-span-1 row-span-1 bg-[#171717] text-2xl p-3 mb-4 bi bi-person-fill"></i>
-                <label for="name"></label>
-                <input class=" focus:outline-none text-[#999] col-span-1 row-span-1 bg-[#171717] w-full p-3 mb-4" type="text" name="name"
-                    id="name" placeholder="FirstName" maxlength="20">
+                    <i
+                        class="w-fit text-[#999] col-span-1 row-span-1 bg-[#171717] text-2xl p-3 mb-4 bi bi-person-fill"></i>
+                    <label for="name"></label>
+                    <input class=" focus:outline-none text-[#999] col-span-1 row-span-1 bg-[#171717] w-full p-3 mb-4"
+                        type="text" name="name" id="name" placeholder="FirstName" maxlength="20">
                 </div>
                 <br>
                 <div class="flex">
-                    <i class="w-fit text-[#999] col-span-1 row-span-1 bg-[#171717] text-2xl p-3 mb-4 bi bi-envelope-fill"></i>
-                <label for="email"></label>
-                <input class=" focus:outline-none text-[#999] col-span-1 row-span-1 bg-[#171717] w-full p-3 mb-4" type="email" id="email"
-                    name="mail" placeholder="enter your email" autocomplete="on">
+                    <i
+                        class="w-fit text-[#999] col-span-1 row-span-1 bg-[#171717] text-2xl p-3 mb-4 bi bi-envelope-fill"></i>
+                    <label for="email"></label>
+                    <input class=" focus:outline-none text-[#999] col-span-1 row-span-1 bg-[#171717] w-full p-3 mb-4"
+                        type="email" id="email" name="mail" placeholder="enter your email" autocomplete="on">
                 </div>
                 <br>
                 <div class="flex">
-                    <i class="w-fit text-[#999] col-span-1 row-span-1 bg-[#171717] text-2xl p-3 mb-4  bi bi-chat-square-text-fill"></i>
-                <label for="message"></label>
-                <textarea class=" focus:outline-none text-[#999] col-span-1 row-span-1 bg-[#171717] w-full p-3 mb-4" name="message"
-                    id="message" cols="30" rows="5" placeholder="type your message"></textarea>
+                    <i
+                        class="w-fit text-[#999] col-span-1 row-span-1 bg-[#171717] text-2xl p-3 mb-4  bi bi-chat-square-text-fill"></i>
+                    <label for="message"></label>
+                    <textarea class=" focus:outline-none text-[#999] col-span-1 row-span-1 bg-[#171717] w-full p-3 mb-4"
+                        name="message" id="message" cols="30" rows="5" placeholder="type your message"></textarea>
                 </div>
-                <div class="w-full flex items-center justify-center py-4 px-8 rounded-[40px] text-2xl text-white capitalize font-semibold bg-gradient-to-r from-[#ced0e2]  from-5% via-[#6e79cc] via-55% to-[#3745A7] to-90% cursor-pointer">
-                        <input type="submit" value="submit now" class="text-2xl capitalize me-2">
-                        <i class="bi bi-arrow-right-circle-fill text-white text-2xl ms-2"></i>
-                    </div>
+                <div
+                    class="w-full flex items-center justify-center py-4 px-8 rounded-[40px] text-2xl text-white capitalize font-semibold bg-gradient-to-r from-[#ced0e2]  from-5% via-[#6e79cc] via-55% to-[#3745A7] to-90% cursor-pointer">
+                    <input type="submit" value="submit now" class="text-2xl capitalize me-2">
+                    <i class="bi bi-arrow-right-circle-fill text-white text-2xl ms-2"></i>
+                </div>
             </div>
         </div>
         </div>
@@ -393,12 +403,12 @@
     const hamburgerIcon = document.getElementById("hamburger-icon");
     const icon = document.getElementById("icon");
     hamburgerIcon.addEventListener("click", () => {
-        if(drawerMenu.classList.contains('-top-full')){
+        if (drawerMenu.classList.contains('-top-full')) {
             drawerMenu.classList.remove('-top-full');
             drawerMenu.classList.add('top-0');
             icon.classList.remove('bi-list');
             icon.classList.add('bi-x');
-        }else{
+        } else {
             drawerMenu.classList.add('-top-full');
             drawerMenu.classList.remove('top-0');
             icon.classList.remove('bi-x');
@@ -411,5 +421,6 @@
         icon.classList.remove('bi-x');
         icon.classList.add('bi-list');
     })
-  </script>
+</script>
+
 </html>
